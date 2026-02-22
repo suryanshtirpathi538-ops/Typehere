@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Document</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Your website description here">
+    <meta name="author" content="Your Name">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <div id="display-text"></div>
+    <textarea id="input-field" placeholder="Start typing here..." spellcheck="false"></textarea>
+    <div id="stats">
+        <span>WPM: <b id="wpm">0</b></span>
+        <span>Acc: <b id="accuracy">100</b>%</span>
+        <span>Time: <b id="timer">60</b>s</span>
+    </div>
+    <div id="result-screen" class="hidden">
+        <h2>Test Complete!</h2>
+        <div class="final-stats">
+            <p>Speed: <span id="final-wpm">0</span> <b>WPM</b></p>
+            <p>Accuracy: <span id="final-acc">0</span><b>%</b></p>
+        </div>
+        <button id="retry-btn">
+            Try Again <span class="enter-key">↵ Enter</span>
+        </button>
+    </div>
+
+
+    <div class="version-badge">
+        v1.01 | © 2026 @Typehere
+    </div>
+    <!-- JavaScript -->
+    <script src="scp.js"></script>
+</body>
+
+</html>
